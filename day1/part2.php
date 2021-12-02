@@ -10,11 +10,11 @@ while ($currentval = intval(trim(fgets(STDIN)))) {
 }
 
 $increases = 0;
-# dont count first one as an increase
 $window = [];
 for ($i=0; $i < WINDOW_SIZE; $i++) {
 	$window[] = array_shift($vals);
 }
+
 foreach ($vals as $val) {
 	$next = $window;
 	array_push($next, $val);
