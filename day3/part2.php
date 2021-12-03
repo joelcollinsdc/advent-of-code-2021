@@ -2,17 +2,28 @@
 
 <?php
 
+// if both frequencies equal, must return 1
 function findMostFrequentValue(array $vals) {
-	$frequencies = array_flip(array_count_values($vals));
+	$frequencies = array_count_values($vals);
 	ksort($frequencies);
-	$frequencies = array_reverse($frequencies, true);
-	return array_shift($frequencies);
+
+	if ($frequencies[1] >= $frequencies[0]) {
+		return 1;
+	} else {
+		return 0;
+	}
 }
 
+// if both frequencies equal, must return 0
 function findLeastFrequentValue(array $vals) {
-	$frequencies = array_flip(array_count_values($vals));
+	$frequencies = array_count_values($vals);
 	ksort($frequencies);
-	return array_shift($frequencies);
+
+	if ($frequencies[0] <= $frequencies[1]) {
+		return 0;
+	} else {
+		return 1;
+	}
 }
 
 function extractColumnFromRows(array $rows, int $colNum) {
@@ -51,6 +62,7 @@ do {
 	$mostFrequent = findMostFrequentValueInIthPosition($remaining, $i);
 	echo "Most frequnt in column $i is $mostFrequent \r\n";
 	$remaining = filterByMatchingColumnValue($remaining, $i, $mostFrequent);
+	// print_r(array_values($remaining));
 
 	if (count($remaining) <= 1) {
 		break;
@@ -58,10 +70,10 @@ do {
 	$i++;
 } while (true);
 
-print_r($remaining);
-$oxygenGeneratorRating = bindec(implode(array_shift($remaining)));
+$lastRow = implode(array_shift($remaining));
+$oxygenGeneratorRating = bindec($lastRow);
 
-echo "Oxygen Generator Rating $oxygenGeneratorRating \r\n";
+echo "Oxygen Generator Rating: $lastRow ($oxygenGeneratorRating) \r\n";
 
 $i = 0;
 $remaining = $vals;
