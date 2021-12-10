@@ -1,0 +1,15 @@
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/bin/Debug/net5.0/day6dotnet.deps.json
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/bin/Debug/net5.0/day6dotnet.runtimeconfig.json
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/bin/Debug/net5.0/day6dotnet.runtimeconfig.dev.json
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/bin/Debug/net5.0/day6dotnet.dll
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/bin/Debug/net5.0/ref/day6dotnet.dll
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/bin/Debug/net5.0/day6dotnet.pdb
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/obj/Debug/net5.0/day6dotnet.csprojAssemblyReference.cache
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/obj/Debug/net5.0/day6dotnet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/obj/Debug/net5.0/day6dotnet.AssemblyInfoInputs.cache
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/obj/Debug/net5.0/day6dotnet.AssemblyInfo.cs
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/obj/Debug/net5.0/day6dotnet.csproj.CoreCompileInputs.cache
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/obj/Debug/net5.0/day6dotnet.dll
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/obj/Debug/net5.0/ref/day6dotnet.dll
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/obj/Debug/net5.0/day6dotnet.pdb
+/Users/jcollins/work/code/advent-of-code-2021/day6dotnet/obj/Debug/net5.0/day6dotnet.genruntimeconfig.cache
